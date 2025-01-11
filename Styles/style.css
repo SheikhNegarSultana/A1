@@ -131,4 +131,49 @@ body {
 
 
 /* The Vision Of Future Done */
+
+
+/*  Quote Section Start  */
+    .quote-bg {
+        background-color: #FFFFFF;
+        padding: 24px 48px;
+        margin-top: 32px;
+        border-radius: 16px;
+        border: 1px solid rgba(14, 14, 14, 0.2);
+      }
+  
+   
+      .quote-img {
+        background-image: url('../assets/quote-bg.png');
+        width: 64px;
+        height: 64px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+      }
+  
+
+      .quote-content {
+        margin-top: -49px;
+      }
+  
+      .p-quote {
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 24px; 
+      }
+  
+   
+      .h1-quote {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0 0 4px;
+        color: rgba(14, 14, 14, 0.8);
+      }
+  
+      .span-quote {
+        font-size: 16px;
+        color: rgba(14, 14, 14, 0.6);
+      }
+/* Quote Section Done */
   
