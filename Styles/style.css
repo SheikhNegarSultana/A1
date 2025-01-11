@@ -99,34 +99,69 @@ body {
     border-radius: 8px;
     font-weight: 600;
 }
+.btn-banner:hover {
+    background-color: white; 
+    color: #0E0E0E;
+    font-weight: bolder;
+}
+
 
 .blue{
     background-color: rgba(84, 144, 245, 0.2);
 }
+.blue:hover{
+    background-color: rgba(84, 144, 245, 0.8);
+    border: 2px solid #0E0E0E;
+}
+
 
 .blue-btn {
     background-color: #5490F5;
     color: white;
+}
+.blue-btn:hover {
+    background-color: white; 
+    color: #0E0E0E;
+    font-weight: bolder;
 }
 
 
 .green{
     background-color: #C6E4D6;
 }
+.green:hover{
+    background-color: #45d391;
+    border: 2px solid #0E0E0E;
+}
 
 .green-btn {
     background-color: #09A15C;
     color: white;
+}
+.green-btn:hover {
+    background-color: white; 
+    color: #0E0E0E;
+    font-weight: bolder;
 }
 
 
 .yellow {
     background-color: #F7EBCF;
 }
+.yellow:hover{
+    background-color: #ecb943;
+    border: 2px solid #0E0E0E;
+}
+
 
 .yellow-btn {
     background-color: #FFC239;
     color: white;
+}
+.yellow-btn:hover {
+    background-color: white; 
+    color: #0E0E0E;
+    font-weight: bolder;
 }
 
 
@@ -214,6 +249,10 @@ body {
     padding: 48px;
     gap: 32px;
 }
+.news-article:hover{
+    background: #09A15C; 
+}
+
 
 .time-news {
     font-size: 16px;
@@ -230,6 +269,12 @@ body {
     border: none;
     font-size: 18px;
     font-weight: 600;
+}
+.btn-read-more:hover {
+    background-color: rgb(154, 192, 155); 
+    color: #0E0E0E;
+    padding: 13px 26px;
+    font-weight: bolder;
 }
 
 /*  Recent News Section Done  */
